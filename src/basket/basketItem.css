@@ -1,0 +1,100 @@
+/*.basket-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.basket-item-name{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.basket-item-price{
+    color: #FFC485;
+    font-weight: bold;
+}
+
+.basket-item-quantity{
+    display: flex;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button{
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    border: none;
+    background-color: white;
+}
+
+
+.quantity-count{
+    margin-left: 27px;
+    margin-right: 27px;
+}*/
+
+/* Стиль для контейнера корзины */
+.basket-item {
+    display: flex;
+  
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Горизонтальная линия между элементами корзины */
+  }
+  
+  /* Стиль для названия товара */
+  .basket-item-name p {
+    margin: 0;
+    font-size: 16px;
+
+  }
+  
+  .basket-item-name{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* Стиль для блока с количеством товара */
+  .quantity {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+  }
+  
+  /* Стиль для кнопок увеличения и уменьшения количества товара */
+  .quantity-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Стиль для счетчика количества товара */
+  .quantity-count {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Стиль для цены товара */
+  .basket-item-price p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .basket-item-price{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+  }
